@@ -1,2 +1,2 @@
 # Catchy-Got-U
-Arduino sensing proximity and capture picure
+Arduino sensing proximity and capture picture
