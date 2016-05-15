@@ -8,16 +8,16 @@ The code also publishes to a Internet Of Things topic on the ibm cloud.
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network.
-byte mac[]    = {  0xDE, 0xED, 0xBA, 0xFE, 0xFE, 0xEF};
-String macString = "deedbafefeef";
-char servername[] = "<deviceId>.messaging.internetofthings.ibmcloud.com";
+byte mac[]    = {  0xKE, 0xLE, 0xDA, 0xLE, 0xKE, 0xDA};
+String macString = "keledalekeda";
+char servername[] = "ti9d33.messaging.internetofthings.ibmcloud.com";
 //char servername[] = "messaging.quickstart.internetofthings.ibmcloud.com";
-byte ip[]     = { 192, 168, 1, 49 };
-String clientName = String("d:<deviceId>:<deviceType>:") + macString;
+byte ip[]     = { 192, 168, 0, 2 };
+String clientName = String("d:ti9d33>:<Arduino_PIRSensor:") + macString;
 //String clientName = String("d:quickstart:arduino:") + macstr;
 String topicName = String("iot-2/evt/status/fmt/json");
 String usernameStr = "use-token-auth";
-String passwordStr = "<generated password when device is registered in bluemix Iot service>";
+String passwordStr = "keledalekeda";
 int motionDetectedAt = 0;
 int motionEndedAt = 0;
 EthernetClient ethClient;
